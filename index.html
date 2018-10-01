@@ -2,8 +2,28 @@
 layout: default
 title: Home
 ---
+
 <h2>Introduction</h2>
 <p>What you're seeing here is a set of maps generated with <a href="https://github.com/mklucz/drogi">drogi</a>, a Python module I wrote. The maps are intended to visualize urban walkability and identify unwalkable areas.
 <h2>Methodology</h2>
 <p>In short: OpenStreetMap data about walkways is turned into a graph and walked, randomly and repeatedly, with an A* algorithm. The resulting paths and the areas causing paths to deviate from a straight line are then colored in.
 You can read about the details <a href="https://github.com/mklucz/drogi/blob/master/README.md">here</a>.</p>
+<h2>See the maps</h2>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Pick a city
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Bialystok2018-09-22_11:03:32.096985.png">Białystok</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Bydgoszcz2018-09-22_09:58:29.452085.png">Bydgoszcz</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Gdansk2018-09-22_12:44:12.063971.png">Gdańsk</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Krakow2018-09-22_19:20:21.382930.png">Kraków</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Lodz2018-09-22_11:30:06.397217.png">Łódź</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Lublin2018-09-22_10:39:09.531457.png">Lublin</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Poznan2018-09-22_12:02:50.606239.png">Poznań</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Szczecin2018-09-22_13:25:00.402065.png">Szczecin</a>
+    <a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Warszawa2018-09-22_17:18:12.469983.png">Warszawa</a>
+	<a class="dropdown-item" href="https://github.com/mklucz/walkability/blob/gh-pages/static/img/Wroclaw2018-09-22_13:21:04.580912.png">Wrocław</a>
+        
+  </div>
+</div>
