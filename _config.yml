@@ -7,3 +7,4 @@ kramdown:
 future: true
 jailed: false
 gfm_quirks: paragraph_end
+baseurl: /walkability
