@@ -1,1 +1,1 @@
-[proceed to the website](https://github.com/mklucz/walkability/)
+[proceed to the website](https://mklucz.github.io/walkability/)
